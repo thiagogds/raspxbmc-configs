@@ -1,0 +1,9 @@
+tasks:
+  {{ TASK_NAME }}:
+    download: /home/pi/torrents/
+    rss: {{ RSS FEED URL }}
+    series:
+      - {{ SERIE_NAME }}:
+          quality: {{ 480p|720p|1080p }}
+      - {{ OTHER_SERIE_NAME }}:
+          quality: {{ 480p|720p|1080p }}
